@@ -2,14 +2,14 @@
 
 ## Install dependencies
 
-Install the dependencies found in `requirements.txt
+Install the dependencies found in requirements.txt
 ```python
 pip install -r requirements.txt
 ```
 
 ## Create database
 
-Create the Chroma DB.
+Create the Chroma DB using below code
 
 ```python
 python create_database.py
@@ -21,7 +21,7 @@ python create_database.py
 python query_data.py "What does the Descartes say about scientific research?"
 ```
 
-Example Output for when querying the data with "What does the Descartes say about scientific research?":
+Example output for when querying the data with the query "What does the Descartes say about scientific research?":
 
 Database initialised.
 
